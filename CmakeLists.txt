@@ -1,0 +1,8 @@
+# CMakeLists.txt remains unchanged, as it has no output
+cmake_minimum_required(VERSION 3.10)
+project(SalesReport)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+add_executable(sales_report main.cpp sales.cpp)
